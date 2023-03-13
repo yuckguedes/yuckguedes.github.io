@@ -72,6 +72,13 @@ main{
     height: 100vh;
 }
 
+@media screen and (min-width:0px) and (max-width: 840px){
+    .section1{
+        flex-direction: column;
+    }
+    
+}
+
 .foto-pessoal2{
     height: 400px;
     width: 400px;
@@ -81,6 +88,14 @@ main{
 
 .img-foto-pessoal2{
     border-radius: 50%;
+}
+
+@media screen and (min-width:0px) and (max-width: 840px){
+    .foto-pessoal2{
+        height: 300px;
+        width: 300px;
+    }
+    
 }
 
 .texto-apresentacao{
@@ -94,11 +109,20 @@ main{
     border-radius: 30px;
 }
 
+@media screen and (min-width:0px) and (max-width: 840px){
+    .texto-apresentacao{
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
 .section2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 .foto-pessoal{
@@ -117,13 +141,20 @@ main{
     padding: 20px;
     background-color: #83867b;
     border-radius: 5px;
+    margin: 30px;
 }
 
 .div-sobre{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+}
+
+@media screen and (min-width:0px) and (max-width: 840px){
+    .div-sobre{
+        flex-direction: column;
+    }
+    
 }
 
 .texto-sobre{
@@ -135,6 +166,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .div-projeto{
@@ -153,6 +185,7 @@ main{
     padding: 20px;
     background-color: #83867b;
     border-radius: 5px;
+    margin: 30px;
 }
 
 /* CSS do footer */
